@@ -13,14 +13,16 @@ return (
         </div>
          </div>    
       <div className="flex justify-center items-center ">
-        
+      <div className='w-2/4 relative'>
+            <img className='z-10 inset-1/2 -translate-y-1/2 -translate-x-1/2  max-w-[280px]  absolute' src="https://vitejs.dev/logo-with-shadow.png"></img>
+            <div className='mx-auto rounded-full rotate-45  w-72 h-72  bg-gradient-to-r from-blue-500 from-50% to-purple-700 to-50% blur-[55px]'></div>
+          </div>
       
-        <img className="h-70 w-80 z-10  "  src="https://vitejs.dev/logo-with-shadow.png" alt="" />
         
         </div>    
       </section>
 
-      <section  className="grid ">
+      <section  className="grid gi">
         <div id="cards_container" className="ml-2 mr-4 mt-6 flex justify-center  ">
         <div id="cards" className="grid grid-rows-2 grid-cols-3 gap-4 " > 
 
